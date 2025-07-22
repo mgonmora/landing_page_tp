@@ -1,12 +1,13 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  width: 100%;
+  /* padding: 2rem; */
   text-align: center;
 }
 
 .logo {
-  height: 6em;
+  /* height: 6em; */
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -39,4 +40,13 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
