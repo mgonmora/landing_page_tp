@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 import "./Hero.css";
 import CTAButton from "../../components/CTAButton/CTAButton";
-import tenpoVideo from "../../assets/video/tenpo.mp4";
+import tenpoVideo from "/assets/video/tenpo.mp4";
 
 export default function Hero() {
   const [show, setShow] = useState(true);
