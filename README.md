@@ -69,20 +69,20 @@ Diseño responsivo: Hice la accesibilidad móvil utilizando Flexbox, media queri
 
 - Librerías y herramientas utilizadas
 
-React.js
+React.js: 
 Estructura base del proyecto, para crear componentes reutilizables y manejar el estado de los elementos.
 
-Framer Motion
+Framer Motion: 
 Lo usé para animaciones como:
 
 Entrada suave de elementos en pantalla
 Animación del botón principal al hacer hover
 
-Bootstrap 5
+Bootstrap 5: 
 Usé Bootstrap para estructurar secciones y mantener la consistencia para las resoluciones
 
-Bootstrap Icons
+Bootstrap Icons: 
 Use los iconos de Bootstrap para mantener en linea lo utilizado.
 
-CSS
+CSS: 
 Use flex, gap, media queries y object-fit para mantener el diseño adaptable sin necesidad de frameworks adicionales. Las animaciones básicas como el parallax las hice con  scrollY y transform.
