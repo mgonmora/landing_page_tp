@@ -17,7 +17,7 @@ Incluye:
 
 ## Tecnologías
 
-- React.js
+- Vite + React.js
 - Framer Motion
 - Bootstrap 5 (clases CSS y grid)
 - Bootstrap Icons
