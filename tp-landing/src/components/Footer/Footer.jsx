@@ -89,7 +89,7 @@ export default function Footer() {
           <div className="row text-center text-md-start">
             <div className="col-12 mb-3 d-flex flex-column align-items-center align-items-md-start">
               <img
-                src="./src/assets/img/logotipo.svg"
+                src="/assets/img/logotipo.svg"
                 alt="Tenpo"
                 style={{ height: "32px" }}
                 className="mb-2"
