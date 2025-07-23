@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Graphie';
+  src: url('./assets/fonts/GraphieRegular.otf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphie';
+  src: url('./assets/fonts/Graphie-ExtraBold.otf') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

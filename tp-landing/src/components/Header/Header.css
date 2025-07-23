@@ -20,36 +20,32 @@
   .logo {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #0d9488; /* teal color */
-    cursor: pointer;
-  }
-  
-  .nav {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .nav a {
-    color: #374151; /* dark gray */
-    font-weight: 600;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .nav a:hover {
     color: #0d9488;
-  }
-  
-  /* Hamburger button (hidden on desktop) */
-  .hamburger {
-    background: none;
-    border: none;
-    font-size: 1.75rem;
     cursor: pointer;
-    display: none;
+  }
+
+  .container-navbar{
+    background-color: #2A2A2A;
+  }
+
+  .navbar{
+    padding: 0.5rem 1rem !important;
+  }
+
+  .navbar-dark-custom {
+    background-color: #2A2A2A !important;
   }
   
-  /* Responsive styles */
+  .navbar-dark-custom .nav-link,
+  .navbar-dark-custom .navbar-brand {
+    color: #FFF !important;
+  }
+  
+  .navbar-dark-custom .nav-link:hover,
+  .navbar-dark-custom .navbar-brand:hover {
+    color: #DDD !important;
+  }
+
   @media (max-width: 768px) {
     .nav {
       position: fixed;
@@ -67,12 +63,20 @@
     }
   
     .nav--open {
-      max-height: 300px; /* enough height to show menu */
+      max-height: 300px; 
     }
   
     .hamburger {
       display: block;
       color: #374151;
     }
+  }
+
+  .navbar-dark-custom .navbar-toggler {
+    border-color: white; 
+  }
+  
+  .navbar-dark-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   

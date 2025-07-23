@@ -1,0 +1,48 @@
+.hero {
+  height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Graphie', sans-serif;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: #03FF94;
+  max-width: 40rem;
+  font-family: 'Graphie', sans-serif;
+  z-index: 1;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  filter: brightness(0.5);
+  pointer-events: none;
+}
+
+.video-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
