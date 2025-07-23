@@ -1,27 +1,45 @@
-import Header from './components/Header';
-import Hero from './sections/Hero';
-import ParallaxSection from './sections/ParallaxSection';
-import './App.css';
+import Header from "./components/Header/Header";
+import Hero from "./sections/Hero/Hero";
+import ParallaxSection from "./sections/ParallaxSection/ParallaxSection";
+import AnimationPhone from "./sections/AnimationPhone/AnimationPhone";
+import Benefits from "./sections/Benefits/Benefits";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
       <Header />
-      <div style={{ paddingTop: '140px' }}>
+      <div style={{ paddingTop: "56px" }}>
         <section id="hero">
           <Hero />
         </section>
 
-        <section id="benefits">
+        <section id="ideas">
           <ParallaxSection />
         </section>
 
         <section id="cta">
-          <Hero />
+          <AnimationPhone />
         </section>
 
-        <section id="contact" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f9fafb' }}>
-          <h2 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Contacto</h2>
+        <section
+          id="benefits"
+          style={{
+            minHeight: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#f9fafb",
+          }}
+        >
+          <Benefits />
+        </section>
+
+        <section id="footer">
+          <Footer />
         </section>
       </div>
     </>

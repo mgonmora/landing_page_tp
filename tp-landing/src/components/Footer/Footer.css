@@ -1,0 +1,9 @@
+footer ul li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  footer ul li:hover {
+    text-decoration: underline;
+  }
+  
