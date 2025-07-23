@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="fixed-top shadow-sm container-navbar">
       <nav className="navbar navbar-expand-md  navbar-dark-custom container">
-        <img className="ps-4" src="./src/assets/img/logo.svg" alt="Logo" />
+        <img className="ps-4" src="/assets/img/logo.svg" alt="Logo" />
 
         <button
           className="navbar-toggler me-4"
