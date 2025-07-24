@@ -20,7 +20,7 @@ export default function Header() {
         </button>
 
         <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
-          <ul className="navbar-nav ms-auto gap-3">
+          <ul className="navbar-nav ms-auto gap-3 text-center w-100 justify-content-end">
             <li className="nav-item">
               <a className="nav-link fw-semibold" href="#hero" onClick={() => setIsOpen(false)}>Inicio</a>
             </li>
@@ -30,7 +30,7 @@ export default function Header() {
             <li className="nav-item">
               <a className="nav-link fw-semibold" href="#cta" onClick={() => setIsOpen(false)}>Seguridad</a>
             </li>
-            <li className="nav-item pe-5">
+            <li className="nav-item">
               <a className="nav-link fw-semibold" href="#benefits" onClick={() => setIsOpen(false)}>Beneficios</a>
             </li>
           </ul>
